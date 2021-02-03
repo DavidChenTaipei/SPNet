@@ -23,16 +23,16 @@ mv downloaded_pretrained_model ./pretrained/
 
 For training, just run
 ```
-sh tool/train.py dataset_name model_name
+sh tool/train.sh dataset_name model_name
 ```
 For instance, in our case, you can run
 ```
-sh tool/train.py ade20k spnet50
+sh tool/train.sh ade20k spnet50
 ```
 
 For test,
 ```
-sh tool/test.py dataset_name model_name
+sh tool/test.sh dataset_name model_name
 ```
 At present, multi-GPU test is not supported. Will implement it later.
 
